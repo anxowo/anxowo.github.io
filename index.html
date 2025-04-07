@@ -1,1 +1,24 @@
-!DOCTYPE HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+    <link rel="stylesheet" href="jiji.css">
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+    <label for="category">Filtrar por categoría:</label>
+    <select id="category" onchange="filterProducts()">
+        <option value="all">Todos</option>
+        <option value="electronica">Electrónica</option>
+        <option value="Gaming">Gaming</option>
+    </select>
+    <label for="search">Buscar producto:</label>
+<input type="text" id="search" oninput="filterProducts()" placeholder="Escribe un nombre...">
+
+    <div id="products"></div>
+
+    <script src="jojo.js"></script>
+</body>
+</html>

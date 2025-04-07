@@ -1,1 +1,10 @@
-
+[
+    { "name": "walkie", "category": "Comunicacion" , "image": "https://es.midlandeurope.com/media/cache/product_gallery/d2/ca/d4bf4f1e64773125e0921dae7ec6.jpg"},
+    { "name": "Laptop", "category": "electronica" },
+    { "name": "Smartphone", "category": "Comunicacion" },
+    { "name": "cpu", "category": "electronica" },
+    { "name": "sai" , "category": "electronica" },
+    { "name": "Nintendo Switch", "category": "Gaming" },
+    { "name": "Playstation 5", "category": "Gaming" },
+    { "name": "Silla Gamer", "category": "Gaming", "image": "https://m.media-amazon.com/images/I/61L7ONNfOwL._AC_UF894,1000_QL80_.jpg" }
+]
